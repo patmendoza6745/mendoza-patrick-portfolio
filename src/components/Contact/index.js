@@ -44,9 +44,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm interested in work that integrates both Computer Science and Mathematics - especially
-            Machine Learning or Software Engineering. However, if you're not here for that, please feel free
-            contacting me by using the form below. Thank you!
+            I'm currently looking for internship opportunities for the Summer and Spring of 2024.
+            However, if you're not here for that, please feel free to contact me by using the form below. Thank you!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
