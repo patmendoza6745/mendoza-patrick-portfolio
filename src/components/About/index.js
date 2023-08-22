@@ -31,17 +31,17 @@ const About = () => {
                 and Cybersecurity. I hope to make substantial contributions to any of these fields in the future either through research, academia, and/or industry.
                 </p>
                 <p>
-                Currently, I'm an Machine Learning Engineer Intern at Hyphenova Network creating a Recommendation System for company-influncer/model partnerships. I'm also a 
+                Currently, I'm a Machine Learning Engineer Intern at Hyphenova Network creating a Recommendation System for company-influncer/model partnerships. I'm also a 
                 SWE Intern at Esync Technologies building a customer Transformer to address a specific task within Cybersecurity and Data Breach Detection. Previously, I was an
                 Undergraduate Research Assistant at the University of Florida's RISING Lab where I developed a generative trajectory algorithm for Connected and Autonomous
-                Vehicles (CAVs) within Reduced Speed Work Zones (RSWZ) using Vehicle-to-Infrastructure (V2I) communication, explored security risks and possible cyberattacks
-                arising from malicious V2I communications, and investigated ways to detect such malicious communication using Detection and Machine Learning algorithms. I was
+                Vehicles (CAVs) within Reduced Speed Work Zones (RSWZ) with Vehicle-to-Infrastructure (V2I) communication, explored security risks and possible cyberattacks
+                arising from malicious V2I communications, and investigated ways to detect such malicious communications using Detection and Machine Learning algorithms. I was
                 also an Undergraduate Research Assistant at UC Berkeley's ACE Lab where I built an anti-cheat feature for online take-home assessments for the educational platform,
                 PrairieLearn.
                 </p>
                 <p>
                 Beyond my technical experiences and interests, I play soccer at the intramural level here at Berkeley and I serve as a Tutoring Assistant Officer
-                for UC Berkeley's EECS Honors Society (HKN). My hobbies include playing soccer, playing video games (CSGO, Valorant, Minecraft - to name a few), playing chess,
+                for UC Berkeley's EECS Honors Society (HKN). My hobbies include playing soccer, playing video games (FIFA, Valorant, Minecraft - to name a few), playing chess,
                 and reading. Fun fact, I have been playing soccer since I was 8 years old!
                 </p>
                 <p>
