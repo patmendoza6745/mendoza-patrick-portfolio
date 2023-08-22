@@ -66,8 +66,8 @@ const Portfolio = () => {
                         idx={15}
                     />
                     <p>
-                    My work up to date. Unfortunately, I can't share the source code for some of the projects, 
-                    but I'd be more than happy to talk to you about them! 
+                    My work up to date. Unfortunately, I cannot share the source code for some projects.
+                    However, I would be more than happy to discuss about my projects in detail!
                     </p>
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>

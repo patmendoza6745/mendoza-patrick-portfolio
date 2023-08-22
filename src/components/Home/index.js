@@ -7,15 +7,13 @@ import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
+    const introArray = ['H', 'i', ' ', 't', 'h', 'e', 'r', 'e', '!']
     const nameArray = [' ', 'P', 'a', 't', 'r', 'i', 'c', 'k', '.']
-    const titleArray = ['A', 's', 'p', 'i','r' ,'i' ,'n' ,'g', ' ', 
-                        'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 
-                        'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r']
 
     useEffect(() => {
         return setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 3500)
     }, [])
 
     return (
@@ -23,18 +21,16 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                <span className={letterClass}>H</span>
-                <span className={`${letterClass} _12`}>i,</span>    
+                <AnimatedLetters letterClass={letterClass} strArray={introArray} idx={10}/>
                 <br/> 
-                <span className={`${letterClass} _13`}>I</span> 
-                <span className={`${letterClass} _14`}>'m</span>  
-                <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}/>
+                <span className={`${letterClass} _22`}>I</span> 
+                <span className={`${letterClass} _23`}>'m</span>  
+                <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={24}/>
                 <br />
-                <AnimatedLetters letterClass={letterClass} strArray={titleArray} idx={22}/>
                 <img src={me} alt="me!"/>
                 </h1>
                 <br />
-                <h2>EECS @ UC Berkeley | SWE Intern @ Esync Technologies</h2>
+                <h2>EECS & Math @ UC Berkeley | MLE Intern @ Hyphenova Network | SWE Intern @ Esync Technologies</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>

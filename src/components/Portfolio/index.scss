@@ -54,17 +54,17 @@
         .title {
             margin-bottom: 0;
             margin-top: 0;
-            color: #fff;
+            color: #ffff;
             font-size: 24px;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 24px;
         }
 
         .description {
             font-size: 14px;
             margin-bottom: 5px;
-            color: #fff;
-            font-weight: 700;
+            color: #ffff;
+            font-weight: 500;
         }
 
         .btn {
@@ -73,10 +73,10 @@
             padding: 0 23px;
             height: 40px;
             line-height: 34px;
-            border: 2px solid #ffd700;
+            border: 2px solid #8d8d8d;
             border-radius: 4px;
             font-size: 14px;
-            color: #fff;
+            color: #8d8d8d;
             background: transparent;
             text-transform: uppercase;
             font-weight: 700;
@@ -86,12 +86,13 @@
 
         .btn:hover {
             transform: translateY(-3px);
-            background: #ffd700;
+            background: #ffff;
+            color: #000000;
         }
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
+            background: linear-gradient(180deg, #8d8d8d, #000);
             position: absolute;
             left: 0;
             right: 0;
