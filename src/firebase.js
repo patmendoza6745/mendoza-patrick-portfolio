@@ -3,14 +3,14 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore';
 
-// Your web app's Firebase configuration
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAfzhzaMCLhhzghNMEjZZHj9EJDmz3VwJ0",
-  authDomain: "online-portfolio-dashboard.firebaseapp.com",
-  projectId: "online-portfolio-dashboard",
-  storageBucket: "online-portfolio-dashboard.appspot.com",
-  messagingSenderId: "177818188029",
-  appId: "1:177818188029:web:a947902605026a0e906694"
+  apiKey: "API_KEY",
+  authDomain: "AUTH_DOMAIN",
+  projectId: "PROJECT_ID",
+  storageBucket: "STORAGE_BUCKET",
+  messagingSenderId: "MESSAGING_SENDER_ID",
+  appId: "APP_ID"
 };
 
 // Initialize Firebase
