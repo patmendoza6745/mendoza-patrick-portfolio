@@ -67,7 +67,7 @@ const Portfolio = () => {
                     />
                     <p>
                     My work up to date. Unfortunately, I cannot share the source code for some projects.
-                    However, I would be more than happy to discuss about my projects in detail!
+                    However, I would be more than happy to discuss my projects in detail with you!
                     </p>
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
